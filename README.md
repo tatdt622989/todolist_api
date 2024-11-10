@@ -22,7 +22,7 @@
   ```bash
   node app.js
   ```
-2. 填寫.env如下
+2. 建立.env並設置以下變量
   ```bash
   PORT=3000
   MONGODB_URI=mongodb://localhost:27017/todolist
