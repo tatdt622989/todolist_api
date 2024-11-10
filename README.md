@@ -12,15 +12,6 @@
 
 ## 安裝
 
-1. 克隆這個倉庫
-  ```bash
-  git clone https://github.com/yourusername/todolist_api.git
-  ```
-2. 進入專案目錄
-  ```bash
-  cd todolist_api
-  ```
-3. 安裝依賴
   ```bash
   npm install
   ```
@@ -37,3 +28,7 @@
   MONGODB_URI=mongodb://localhost:27017/todolist
   JWT_SECRET=your_secret
   ```
+
+## API文件
+
+https://documenter.getpostman.com/view/15751402/2sAY52dKrb
