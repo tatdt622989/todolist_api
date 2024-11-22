@@ -1,9 +1,16 @@
 const express = require('express');
+const cors = require('cors');
 const connectDB = require('./database');
 const authRouter = require('./routes/auth');
 const todosRouter = require('./routes/todos');
 
 const app = express();
+
+app.use(cors({
+  origin: '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
 connectDB();
 
